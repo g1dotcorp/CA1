@@ -15,7 +15,15 @@ int main() {
         case 1:
             printf("You selected Mathematics.\n");
             break;
-        
+        case 2:
+            printf("You selected Physics.\n");
+            break;
+        case 3:
+            printf("You selected Computer Science.\n");
+            break;
+        case 4:
+            printf("You selected Chemistry.\n");
+            break;
         default:
             printf("Invalid choice! Please select a number between 1 and 4.\n");
     }
